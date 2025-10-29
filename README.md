@@ -16,3 +16,5 @@ sudo docker run \
   --config.file=/etc/prometheus/prom-config.yml
   --enable-feature=remote-write-receiver
 7. You can now access the Prometheus server at http://localhost:9090
+8. Create the Cribl Leader Container
+   docker run --rm -it -e CRIBL_DIST_MODE="leader" -p 9000:9000 cribl/cribl:dev-hourly
