@@ -31,13 +31,13 @@ scrape_configs:
         labels:
           app: "prometheus"
 
-remote_write:
-  - url: "http://localhost:9201/write"
+    remote_write:
+      - url: "http://localhost:9201/write"
 
-    basic_auth:
-      username: admin
-      password: admin
-    queue_config:
-      batch_send_deadline: 50s
-    metadata_config:
-      send: false
+        basic_auth:
+          username: admin
+        password: admin
+          queue_config:
+        batch_send_deadline: 50s
+          metadata_config:
+        send: false
