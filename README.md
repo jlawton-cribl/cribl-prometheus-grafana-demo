@@ -2,7 +2,7 @@
 A Cribl demo sending Prometheus Remote Write metrics into Grafana. 
 
 #Instructions
-1. [Install Docker]([https://docs.docker.com/engine/install/]) (if you have not already)
+1. Install Docker: https://docs.docker.com/engine/install/ (if you have not already)
 2. Make sure Docker is running
    sudo docker run hello-world
 3. Create a Prometheus Container
