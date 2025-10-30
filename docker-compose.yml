@@ -4,7 +4,7 @@ services:
     image: cribl/cribl:latest
     container_name: cribl-leader
     ports:
-      - "19000:9000"
+      - 19000:9000
     network_mode: host
     command: ["/bin/bash", "-c", "apt-get update && apt-get install -y curl && exec tail -f /dev/null"]
     tty: true
