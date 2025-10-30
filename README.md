@@ -6,15 +6,9 @@ A Cribl demo sending Prometheus Remote Write metrics into Grafana.
    https://docs.docker.com/engine/install/ (if you have not already)
 3. Make sure Docker is running:
    sudo docker run hello-world
-4. Clone the promethues.yml file in this repo:
+4. Clone this repo:
    git clone https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo.git
-5. Create a Prometheus Container:
-sudo docker run \
-  -p 9090:9090 \
-  -v /home/ubuntu/cribl-prometheus-grafana-demo/prom-config.yml:/etc/prometheus/prom-config.yml \
-  prom/prometheus:latest \
-  --config.file=/etc/prometheus/prom-config.yml
-  --enable-feature=remote-write-receiver
-7. You can now access the Prometheus server at http://localhost:9090
-8. Create the Cribl Leader Container
-   docker run --rm -it -e CRIBL_DIST_MODE="leader" -p 9000:9000 cribl/cribl:dev-hourly
+5. Navigate to repo folder:
+   cd cribl-prometheus-grafana-demo
+6. Create the containers
+   sudo docker compose up -d
