@@ -25,6 +25,6 @@ services:
     container_name: prometheus
     image: prom/prometheus:v2.55.0
     volumes:
-      - ./Docker/prometheus.yml:/etc/prometheus/prometheus.yml
+      - /home/ubuntu/cribl-prometheus-grafana-demo/prom-config.yml:/etc/prometheus/prometheus.yml
     ports:
       - 9090:9090
