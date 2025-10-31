@@ -28,3 +28,10 @@ services:
       - /home/ubuntu/cribl-prometheus-grafana-demo/prom-config.yml:/etc/prometheus/prometheus.yml
     ports:
       - 9090:9090
+
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
