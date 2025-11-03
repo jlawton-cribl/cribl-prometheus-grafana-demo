@@ -29,6 +29,9 @@ sudo docker run hello-world
 #Create the containers
 sudo docker compose up -d
 
+#find the current ip of the instance
+#curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
+
 cat << "EOF"
                           .          ..          ..                                              .       ..          .x+=:.   
                          @88>  . uW8"      x .d88"                                              @88>   dF           z`    ^%  
