@@ -3,7 +3,7 @@ A Cribl demo sending Prometheus Remote Write metrics into Grafana.
 
 ![Architecture Diagram](https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo/blob/main/cribl-prom-grafana-architecture.drawio.png)
 
-#Instructions
+# Instructions
 1. Open Terminal
 2. Clone the repo:<br>`git clone https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo.git`<br>
 3. Navigate to the demo repo: <br>`cd cribl-prometheus-grafana-demo`<br>
