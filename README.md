@@ -2,7 +2,7 @@
 A Cribl demo sending Prometheus Remote Write metrics into Grafana. 
 
 <p align="center">
-  <img width="500" height="500" src="https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo/blob/main/cribl-prom-grafana-architecture.drawio.png">
+  <img width="478" height="523" src="https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo/blob/main/cribl-prom-grafana-architecture.drawio.png">
 </p>
 
 # Instructions
