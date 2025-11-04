@@ -25,5 +25,5 @@
   "authType": "none",
   "metricsFlushPeriodSec": 60,
   "type": "prometheus",
-  "url": "http://35.93.58.238:9090/api/v1/write"
+  "url": "http://<PROM_SERVER_URL_AND_PORT>/api/v1/write"
 }
