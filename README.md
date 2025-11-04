@@ -19,8 +19,8 @@ The script will output urls to open Cribl, Prometheus, & Grafana respectively
 2. Navigate to Cribl Stream
 3. Open the default worker group
 4. Navigate to Data->Destinations. Search for Prometheus.
-5. Add Source -> Manage as JSON
-6. Upload the promethues.json file from the repo.
+5. Add Destination -> Manage as JSON.
+6. Upload the prometheus.json file from the repo.
 7. Navigate to Data -> Sources. Search for System Metrics
 8. Enable the System Metrics source.
 9. Open the source and navigate to connected destinations on the left.
