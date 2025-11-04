@@ -29,19 +29,6 @@ sudo docker run hello-world
 #Create the containers
 sudo docker compose up -d
 
-#find the current ip of the instance
-URL=$(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//')
-
-#Set the urls for the services
-PROMETHEUS_URL=http://$URL:9090
-CRIBL_URL=http://$URL:19000
-GRAFANA_URL=http://$URL:3000
-
-
-echo To Access Cribl open $CRIBL_URL in your browser
-echo To Access Promethues open $PROMETHEUS_URL in your browser
-echo To Access Grafana open $GRAFANA_URL in your browser
-
 cat << "EOF"
                           .          ..          ..                                              .       ..          .x+=:.   
                          @88>  . uW8"      x .d88"                                              @88>   dF           z`    ^%  
@@ -59,3 +46,15 @@ cat << "EOF"
                                                                                    '8>                                        
                                                                                     "                                         
 EOF
+
+#find the current ip of the instance
+URL=$(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//')
+
+#Set the urls for the services
+PROMETHEUS_URL=http://$URL:9090
+CRIBL_URL=http://$URL:19000
+GRAFANA_URL=http://$URL:3000
+
+echo To Access Cribl open $CRIBL_URL in your browser
+echo To Access Promethues open $PROMETHEUS_URL in your browser
+echo To Access Grafana open $GRAFANA_URL in your browser
