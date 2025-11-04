@@ -37,7 +37,8 @@ The script will output urls to open Cribl, Prometheus, & Grafana respectively
 6. Navigate to Drilldown -> Metrics.
 
 # Demo
-1. Create a pipeline with Copilot Editor!
+1. Create a metric aggregation pipeline with Copilot Editor!
+2. Show metric aggregation in Grafana.
 
 
 
