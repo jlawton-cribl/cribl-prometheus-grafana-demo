@@ -1,0 +1,29 @@
+{
+  "id": "out_remote_write",
+  "systemFields": [
+    "cribl_host",
+    "cribl_wp"
+  ],
+  "streamtags": [],
+  "metricRenameExpr": "name.replace(/[^a-zA-Z0-9_]/g, '_')",
+  "sendMetadata": true,
+  "concurrency": 5,
+  "maxPayloadSizeKB": 4096,
+  "maxPayloadEvents": 0,
+  "rejectUnauthorized": true,
+  "timeoutSec": 30,
+  "flushPeriodSec": 1,
+  "useRoundRobinDns": false,
+  "failedRequestLoggingMode": "none",
+  "safeHeaders": [],
+  "responseRetrySettings": [],
+  "timeoutRetrySettings": {
+    "timeoutRetry": false
+  },
+  "responseHonorRetryAfterHeader": false,
+  "onBackpressure": "block",
+  "authType": "none",
+  "metricsFlushPeriodSec": 60,
+  "type": "prometheus",
+  "url": "http://35.93.58.238:9090/api/v1/write"
+}
