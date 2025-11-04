@@ -55,6 +55,6 @@ PROMETHEUS_URL=http://$URL:9090
 CRIBL_URL=http://$URL:19000
 GRAFANA_URL=http://$URL:3000
 
-echo To Access Cribl open $CRIBL_URL in your browser
-echo To Access Promethues open $PROMETHEUS_URL in your browser
-echo To Access Grafana open $GRAFANA_URL in your browser
+echo To Access Cribl open $CRIBL_URL in your web browser
+echo To Access Prometheus open $PROMETHEUS_URL in your web browser
+echo To Access Grafana open $GRAFANA_URL in your web browser
