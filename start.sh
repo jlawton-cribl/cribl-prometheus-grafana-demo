@@ -17,12 +17,6 @@ cat << "EOF"
                                                                                     "                                         
 EOF
 
-#Install Docker (if it is not installed already)
-curl -fsSL https://get.docker.com -o install-docker.sh
-cat install-docker.sh
-sh install-docker.sh --dry-run
-sudo sh install-docker.sh
-
 #Make sure Docker is running
 sudo docker run hello-world
 
