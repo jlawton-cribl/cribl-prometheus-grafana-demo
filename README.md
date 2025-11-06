@@ -10,11 +10,13 @@ A Cribl demo sending Prometheus Remote Write metrics into Grafana.
 <br>or<br>
 [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
 
-# Installation
+# Cloud Installation
 1. Open Terminal
 2. Clone the repo:<br>`git clone https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo.git`<br>
 3. Navigate to the demo repo: <br>`cd cribl-prometheus-grafana-demo`<br>
 4. Spin up the demo environment:<br>`chmod 777 ./start.sh && ./start.sh`<br>
+
+# Local Installation
 
 # Setup
 The script will output urls to open Cribl, Prometheus, & Grafana respectively
