@@ -10,7 +10,7 @@ A Cribl demo sending Prometheus Remote Write metrics into Grafana.
 <br>or<br>
 [Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
 <br>or<br>
-[Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/mac-install/)
+[Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 # Installation
 1. Open Terminal
