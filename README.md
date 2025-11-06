@@ -5,6 +5,11 @@ A Cribl demo sending Prometheus Remote Write metrics into Grafana.
   <img width="478" height="523" src="https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo/blob/main/cribl-prom-grafana-architecture.drawio (1).png">
 </p>
 
+# Prequisites
+[Docker Engine](https://docs.docker.com/engine/install/)
+<br>or<br>
+[Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
+
 # Installation
 1. Open Terminal
 2. Clone the repo:<br>`git clone https://github.com/jlawton-cribl/cribl-prometheus-grafana-demo.git`<br>
