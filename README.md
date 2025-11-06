@@ -8,7 +8,9 @@ A Cribl demo sending Prometheus Remote Write metrics into Grafana.
 # Prequisites
 [Docker Engine](https://docs.docker.com/engine/install/)
 <br>or<br>
-[Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
+[Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
+<br>or<br>
+[Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/mac-install/)
 
 # Installation
 1. Open Terminal
